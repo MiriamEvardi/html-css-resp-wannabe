@@ -129,11 +129,14 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+
+
+/*Tablet*/
+
 @media screen and (max-width:768px) {
 
-    .container {
-        width: 100%;
-    }
+
 
     p {
         font-size: 1rem;
@@ -165,5 +168,14 @@ img {
 
     .steps .col:nth-of-type(3) h3 {
         padding-top: 20px;
+    }
+}
+
+
+/*bonus*/
+
+@media screen and (max-width:1160px) {
+    .container {
+        width: 100%;
     }
 }
